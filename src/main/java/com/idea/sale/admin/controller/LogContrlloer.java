@@ -31,8 +31,8 @@ public class LogContrlloer {
 	private static final Logger error = LoggerFactory.getLogger("apperror");
 	private ObjectMapper mapper = new ObjectMapper();
 
-	/*@RequestMapping("/aaa")
-	public String testLog() {
+	@RequestMapping("/aaa")
+	public Map<String, Object> testLog() {
 		Map<String, Object> map = new HashMap<>();
 		map.put("name", "zhangsan");
 		map.put("age", 10);
@@ -42,8 +42,8 @@ public class LogContrlloer {
 		} catch (JsonProcessingException e) {
 			e.printStackTrace();
 		}
-		return "llllllllll";
-	}*/
+		return map;
+	}
 
 	/**
 	 * desc:接收到app端发送的日志文件，然后放入flume author:zhangyong date:2018年11月29日下午2:45:33
