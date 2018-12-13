@@ -101,7 +101,6 @@
 		</dependency>
 	</dependencies>
 	<build>
-		<pluginManagement>
 		<plugins>
 			<plugin>
 				<groupId>com.mysema.maven</groupId>
@@ -190,6 +189,5 @@
 				</executions>
 			</plugin>
 		</plugins>
-		</pluginManagement>
 	</build>
 </project>
