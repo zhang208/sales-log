@@ -36,10 +36,7 @@ public class LogContrlloer {
 		Map<String, Object> map = new HashMap<>();
 		map.put("name", "zhangsan");
 		map.put("age", 10);
-		map.put("sex", "nan");
-		map.put("addr", "bjcp");
-		map.put("like", "busketball");
-		map.put("email", "1008@qq.com");
+		
 
 		try {
 			iosinfo.info(mapper.writeValueAsString(map));
