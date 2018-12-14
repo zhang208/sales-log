@@ -40,6 +40,9 @@ public class LogContrlloer {
 		map.put("addr", "bjcp");
 		map.put("like", "busketball");
 		map.put("email", "1008@qq.com");
+		map.put("addr3", "bjcp3");
+		map.put("like3", "busketbal3l");
+		map.put("email3", "10086@qq.com");
 		try {
 			iosinfo.info(mapper.writeValueAsString(map));
 		} catch (JsonProcessingException e) {
